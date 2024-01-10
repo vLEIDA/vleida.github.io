@@ -434,6 +434,10 @@ video {
   display: none;
 }
 
+a {
+  text-decoration-line: underline;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -593,10 +597,6 @@ video {
   width: 8rem;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .content-center {
   align-content: center;
 }
@@ -631,17 +631,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.pl-5 {
-  padding-left: 1.25rem;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .text-3xl {
